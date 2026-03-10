@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flexbox-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 100px;
+    width: auto;
+    height: 100px;
+
+}
+
+.first-box, .second-box, .third-box {
+    background-color: black;
+    color: white;
+    flex: 1;
+    margin: 10px;
+}
+
+
+.boxone, .boxtwo, .boxthree {
+    display: inline-block;
+    margin: 20px 20px;
+    border: 10px dashed red;
+    align-self: auto;
+    align-content:center;
+    flex: 2 0 0%    ;
+}
+
+
+#secondflex {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px   ;
+}
