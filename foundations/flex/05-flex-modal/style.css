@@ -35,6 +35,19 @@ body {
   justify-content: center;
 }
 
+.container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.container-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
 .close-button {
   background: #eee;
   border-radius: 50%;
