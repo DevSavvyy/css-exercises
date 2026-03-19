@@ -8,6 +8,12 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10px;
+  font-weight: 900;
+  font-size: 32px;
 }
 
 .footer {
@@ -26,4 +32,30 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  
+}
+
+.card {
+  flex: 0 0 20%; 
+  margin: 50px;
+  padding: 20px;
+}
+
+.cards {
+display: flex;
+gap: 10px;
+flex: 10;
+justify-content: flex-start;
+flex-wrap: wrap;
+height: 1000px;
 }
